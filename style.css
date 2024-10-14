@@ -1,0 +1,182 @@
+body{
+    background: rgba(0, 0, 255, 0.618);
+}
+.loki{
+    overflow: hidden;
+    background-image: url("loji.jpeg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.loki h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista_uno{
+    display: flex;
+  
+}
+.list_uno{
+    list-style: none;
+    margin: 10px;
+    margin-left:30px ;
+}
+.uno {
+    position: relative;
+    margin-top: 170px;
+
+}
+.titulo_uno {
+    text-align: center;
+}
+.loki p{
+    text-align: center;
+}
+.uno{
+    opacity: 0;
+}
+.loki:hover{
+    .uno{
+        opacity: 1;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(6px);
+     background-color: rgba(255, 255, 255, 0.285);
+    }
+}
+
+
+
+
+.tor{
+    margin: 30px;
+    overflow: hidden;
+    background-image: url("tor2.jpeg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.tor h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista_dos{
+    display: flex;
+  
+}
+.list_dos{
+    list-style: none;
+    margin: 10px;
+    margin-left:30px ;
+}
+.dos {
+    position: relative;
+    margin-top: 170px;
+
+}
+.titulo_dos {
+    text-align: center;
+}
+.tor p{
+    text-align: center;
+}
+.dos{
+    opacity: 0;
+}
+.tor:hover{
+    .dos{
+        opacity: 1;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(6px);
+     background-color: rgba(255, 255, 255, 0.285);
+    }
+}
+
+
+
+
+
+
+
+
+
+.iron{
+    overflow: hidden;
+    background-image: url("iroman.jpeg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+   
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.iron h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista_tres{
+    display: flex;
+  
+}
+.list_tres{
+    list-style: none;
+    margin: 10px;
+    margin-left:30px ;
+}
+.tres {
+    position: relative;
+    margin-top: 170px;
+
+}
+.titulo_tres {
+    text-align: center;
+}
+.iron p{
+    text-align: center;
+}
+.tres{
+    opacity: 0;
+}
+.iron:hover{
+    .tres{
+        opacity: 1;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(6px);
+     background-color: rgba(255, 255, 255, 0.285);
+    }
+}
+.contenedor{
+    display: flex;
+    margin: 150px;
+    align-items: center;
+}
+@media(max-width:700px){
+    .contenedor{
+        margin-top: 30px;
+        display: block;
+        align-items: center;
+
+    }
+    .tor{
+        margin: 0;
+    }
+    .loki {
+        margin: 10px;
+    }
+    .tor {
+        margin: 10px;
+
+    }
+     .iron{
+        margin: 10px;
+     }
+}
